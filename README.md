@@ -1,5 +1,5 @@
 
-#React State Explanation
+# React State Explanation
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cs3h8o1w71cthz9pocj5.png)
 
