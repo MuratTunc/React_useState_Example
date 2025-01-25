@@ -1,0 +1,53 @@
+/* Container to position content in the top-left corner */
+.container {
+  position: absolute; /* Allows precise positioning */
+  top: 40px; /* Distance from the top of the screen */
+  left: 2px; /* Distance from the left of the screen */
+  font-family: Arial, sans-serif;
+}
+
+/* Styling the counter title */
+h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px; /* Space between header and buttons */
+}
+
+/* Grouping buttons together */
+.button-group {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+/* Styling buttons */
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #39843c;
+}
+
+/* Reset button has a different style */
+button.reset {
+  background-color: #f44336;
+}
+
+button.reset:hover {
+  background-color: #e53935;
+}
+
+button.reset:active {
+  background-color: #c62828;
+}
